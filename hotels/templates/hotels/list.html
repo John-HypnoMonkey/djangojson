@@ -1,0 +1,28 @@
+{% extends "hotels/base.html" %}
+{% block title %}
+  <title>Hotels list</title>
+{% endblock %}
+
+{% block content %}
+
+                <label class="to">
+                    <span>Выберите страну:</span>
+					<select name="countries" id="country_select">
+						<option value="0">По умолчанию</option>
+                        {% for item in country_list %}
+                            <option value="{{ item.id}}">{{ item.name }}</option>
+                        {% endfor %}
+					</select>
+                </label>
+        <div class="preview" id="list_of_hotels">
+  
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block js %}
+    {% load static %}
+    <script src="{% static "script.js" %}"></script>
+{% endblock %}
+
