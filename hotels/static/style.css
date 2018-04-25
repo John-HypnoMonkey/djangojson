@@ -1,0 +1,10 @@
+.hotel-cube { display:inline-block; width: 120px; height: 120px; margin: 5px; float:left; background-size: cover; border-radius: 10px;}
+.name {height:77px; display:block; color:white; font:bold 14px/18px Arial,Helvetica,sans-serif; padding:3px; text-shadow: 0px 0px 2px black; 
+       background-image:linear-gradient(to bottom, rgba(5, 155, 206, 0.85), rgba(5, 155, 206, 0)); border-radius: 10px;
+       }
+.price { background: #ec933d; border-radius: 12px; margin-top: 4px; margin-left:10px; bottom: 5px; padding: 0 12px; text-align:right; color:white;
+        font: bold 16px/25px Arial,Helvetica,sans-serif;
+       }
+
+.starter-template { display:block; margin:20px; overflow: auto; max-width:650px; }
+.starter-template label { margin-bottom: 30px; display: block; }
